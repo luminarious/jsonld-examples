@@ -1,0 +1,35 @@
+{
+	"@context": "http://schema.org",
+	"@type": "NewsArticle",
+	"headline": "Article headline",
+	"alternativeHeadline": "An alternative headline, if need be",
+	"dateline": "London, UK",
+	"image": [
+		"http://www.example.com/image1.jpg",
+		"http://www.example.com/image2.jpg"
+	],
+	"datePublished": "2015-09-05",
+	"dateModified": "2015-09-20",
+	"description": "An article that will hopefully be seen in Google News",
+	"articleBody": "Paste the whole mess of code in here",
+	"author": {
+		"@type": "Organization",
+		"name": "Elsevier",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "http://example.com/logo.jpg"
+		}
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "Elsevier",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "http://example.com/logo.jpg"
+		}
+	},
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://example.com/article"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "http://www.example.com/",
+	"author": {
+		"@type": "Person",
+		"name": "Jane Doe"
+	},
+	"description": "Any sort of description, I'd keep it short",
+	"publisher": {
+		"@type": "Organization",
+		"name": "Elsevier",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "http://example.com/logo.jpg"
+		}
+	},
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "http://www.example.com/?s={search_term}",
+		"query-input": "required name=search_term"
+	}
+}

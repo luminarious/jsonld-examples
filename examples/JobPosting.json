@@ -1,0 +1,46 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "JobPosting",
+	"title": "Fitter and Turner",
+	"description": "<p>Widget assembly role for pressing wheel assemblies.</p><p><strong>Educational Requirements:</strong> Completed level2 ISTA Machinist Apprenticeship.</p><p><strong>Required Experience:</strong> At least3 years in a machinist role.</p>",
+	"identifier": {
+		"@type": "PropertyValue",
+		"name": "MagsRUs Wheel Company",
+		"value": "1234567"
+	},
+	"datePosted": "2017-01-18",
+	"validThrough": "2017-03-18T00:00",
+	"employmentType": "CONTRACTOR",
+	"hiringOrganization": {
+		"@type": "Organization",
+		"name": "MagsRUs Wheel Company",
+		"sameAs": "http://www.magsruswheelcompany.com"
+	},
+	"jobLocation": {
+		"@type": "Place",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "555 Clancy St",
+			"addressLocality": "Detroit",
+			"addressRegion": "MI",
+			"postalCode": "48201",
+			"addressCountry": "US"
+		}
+	},
+	"baseSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+			"@type": "QuantitativeValue",
+			"value": 40.00,
+			"unitText": "HOUR"
+		}
+	},
+	"workHours": "40 hours per week",
+	"skills": "Web application development using Java/J2EE Web application development using Python or familiarity with dynamic programming languages",
+	"responsibilities": "Design and write specifications for tools for in-house customers Build tools according to specifications",
+	"qualifications": "Ability to work in a team environment with members of varying skill levels. Highly motivated. Learns quickly.",
+	"industry": "Computer Software",
+	"experienceRequirements": "Minumum 3 years experience as a software engineer",
+	"educationRequirements": "Bachelor's Degree in Computer Science, Information Systems or related fields of study."
+}

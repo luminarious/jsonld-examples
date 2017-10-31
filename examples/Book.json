@@ -1,0 +1,78 @@
+{
+	"@context": "http://schema.org",
+	"@type": "WebPage",
+	"breadcrumb": {
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item": {
+					"@id": "https://example.com/books",
+					"name": "Books",
+					"image": "http://example.com/images/icon-book.png"
+				}
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"item": {
+					"@id": "https://example.com/books/authors",
+					"name": "Authors",
+					"image": "http://example.com/images/icon-author.png"
+				}
+			},
+			{
+				"@type": "ListItem",
+				"position": 3,
+				"item": {
+					"@id": "https://example.com/books/authors/annleckie",
+					"name": "Ann Leckie",
+					"image": "http://example.com/images/author-leckie-ann.png"
+				}
+			},
+			{
+				"@type": "ListItem",
+				"position": 4,
+				"item": {
+					"@id": "https://example.com/books/authors/ancillaryjustice",
+					"name": "Ancillary Justice",
+					"image": "http://example.com/images/cover-ancillary-justice.png"
+				}
+			}
+		]
+	},
+	"mainEntity": {
+		"@type": "Book",
+		"author": {
+			"@type": "Person",
+			"name": "John Doe"
+		},
+		"bookFormat": "http://schema.org/EBook",
+		"datePublished": "2015-05-01",
+		"image": "coverImage.jpg",
+		"inLanguage": "English",
+		"isbn": "00000000",
+		"name": "The Title of Book",
+		"numberOfPages": "1234",
+		"offers": {
+			"@type": "Offer",
+			"availability": "http://schema.org/InStock",
+			"price": "9.99",
+			"priceCurrency": "USD"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "Elsevier",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "http://example.com/logo.jpg"
+			}
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "4",
+			"reviewCount": "12"
+		}
+	}
+}
