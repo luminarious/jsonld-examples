@@ -1,0 +1,62 @@
+{
+	"@context": "http://schema.org",
+	"@type": "Plumber", // Change to the most specific type (List of choices: https://goo.gl/tvMVHf)
+	"name": "Custom Heat", // *REQUIRED
+	"legalName": "Custom Heat Ltd", // The Registered Business Name
+	"vatID": "776796257",
+	"description": "Established in Rugby since 1980, Custom Heat are a family run central heating and plumbing business serving Rugby, Royal Leamington Spa and Warwick.",
+	"logo": "http://www.customheat.co.uk/wp-content/themes/custom-heat/images/custom-heat-logo.png",
+
+	"address": { // *REQUIRED
+		"@type": "PostalAddress",
+		"streetAddress": "164 Lawford Road", // *REQUIRED
+		"addressLocality": "Rugby", // *REQUIRED
+		"addressRegion": "Warwickshire", // *REQUIRED
+		"postalCode": "CV21 2HL", // *REQUIRED
+		"addressCountry": "GB" // *REQUIRED
+	},
+
+	//Optional Link to your business on Google Maps
+	"hasMap": "https://www.google.co.uk/maps/place/Custom+Heat+Ltd/@52.3726132,-1.2765811,17z/data=!3m1!4b1!4m5!3m4!1s0x4877474b2cff86d7:0xbec0dd5d55581bec!8m2!3d52.3726132!4d-1.2743924",
+
+	"geo": { // recommended.
+		"@type": "GeoCoordinates",
+		"latitude": 52.372613,
+		"longitude": -1.274392
+	},
+
+	"url": "http://www.customheat.co.uk", // recommended.
+	"telephone": "+441788568752", // Recommended - The number must include the Country Code.
+	"email": "mailto:sales@customheat.co.uk", // Optional sales email address
+
+	"openingHoursSpecification": [ // recommended.
+		{
+			"@type": "OpeningHoursSpecification", //Standard Opening Hours
+			"dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			],
+			"opens": "09:30",
+			"closes": "18:00"
+		},
+		{
+			"@type": "OpeningHoursSpecification", //Open 24hrs Saturday
+			"dayOfWeek": "Saturday",
+			"opens": "00:00",
+			"closes": "23:59"
+		},
+		{
+			"@type": "OpeningHoursSpecification", //Closed all day Sunday
+			"dayOfWeek": "Sunday",
+			"opens": "00:00",
+			"closes": "00:00"
+		}
+	],
+	"sameAs": [ // All Social Accounts
+		"http://www.facebook.com/customheatltd",
+		"http://www.twitter.com/customheat"
+	]
+}
